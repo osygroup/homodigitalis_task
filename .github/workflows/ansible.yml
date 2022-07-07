@@ -1,12 +1,8 @@
 
-name: "Deploy app to k8s cluster"
+name: "create a self-service option for Python virtual environments"
 on:
   push:
     # run on push to master
-    branches:
-      - main
-  pull_request:
-    # run on creation of PR to master
     branches:
       - main
 jobs:
