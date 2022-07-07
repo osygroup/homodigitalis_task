@@ -1,5 +1,5 @@
 
-name: "create a self-service option for Python virtual environments"
+name: "Create self-service option for Python virtual environments"
 on:
   push:
     # run on push to master
