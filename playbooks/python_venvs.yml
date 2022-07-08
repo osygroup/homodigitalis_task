@@ -1,0 +1,17 @@
+---
+
+- name: test
+
+hosts: all
+
+become: true
+
+tasks:
+
+- name: install git
+
+package:
+
+name: git
+
+state: latest
