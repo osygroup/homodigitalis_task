@@ -1,4 +1,3 @@
----
 - name: Install Python3
   ansible.builtin.shell: sudo apt install -y python3
 - name: test
