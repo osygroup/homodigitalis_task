@@ -15,6 +15,7 @@ jobs:
       run: |
         export ANSIBLE_CONFIG=roles/
         ansible-galaxy role list
+        mkdir /home/runner/work/homodigitalis_task/homodigitalis_task/playbooks/../static-assignments/roles
         cp roles/* /home/runner/work/homodigitalis_task/homodigitalis_task/playbooks/../static-assignments/roles
     
     - name: Run playbook
