@@ -1,0 +1,9 @@
+---
+- name: Install Python3
+  hosts: "{{ hostlist }}"
+  become: true
+  tasks:
+    - name: install python3
+      package: 
+        name: python3
+        state: present

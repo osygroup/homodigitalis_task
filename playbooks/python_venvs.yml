@@ -1,8 +1,6 @@
 ---
 - name: Install Python3
-  package:
-      name: python3
-      state: present
+  import_playbook: ../static-assignments/install_python.yml hostlist=all
 - name: test
 #to run on all hosts, whether ubuntu or CentOS
   hosts: all
