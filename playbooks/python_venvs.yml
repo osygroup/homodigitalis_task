@@ -1,5 +1,5 @@
 - name: Install Python3
-  ansible.builtin.shell: sudo apt install -y python3
+  shell: sudo apt install -y python3
 - name: test
 #to run on all hosts, whether ubuntu or CentOS
   hosts: all
