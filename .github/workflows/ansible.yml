@@ -15,6 +15,7 @@ jobs:
       run: |
         export ANSIBLE_CONFIG=roles/
         ansible-galaxy role list
+        cp roles/* /home/runner/.ansible/roles
     
     - name: Run playbook
       uses: dawidd6/action-ansible-playbook@v2
