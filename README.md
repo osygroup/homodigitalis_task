@@ -1,2 +1,2 @@
 # homodigitalis_task
-Homodigitalis DevOps task
+Homodigitalis DevOps task.
