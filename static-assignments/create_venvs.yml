@@ -1,4 +1,6 @@
+---
 - name: create /opt/python_venvs folder if it does not exist
+  hosts: "{{ hostlist }}"
   file:
     path: /opt/python_venvs
     state: directory
