@@ -13,8 +13,7 @@ jobs:
 
     - name: Export Ansible Roles
       run: |
-        pwd
-      #export ANSIBLE_CONFIG=~/homodigitalis_task/roles
+        export ANSIBLE_CONFIG=roles/
     
     - name: Run playbook
       uses: dawidd6/action-ansible-playbook@v2

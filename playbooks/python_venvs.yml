@@ -1,5 +1,5 @@
 ---
 - name: Install Python3
   import_playbook: ../static-assignments/install_python.yml hostlist=all
-#- name: Create venvs
-#  import_playbook: ../static-assignments/create_venvs.yml hostlist=all
+- name: Create venvs
+  import_playbook: ../static-assignments/create_venvs.yml hostlist=all
