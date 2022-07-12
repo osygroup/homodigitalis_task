@@ -14,7 +14,7 @@ jobs:
     - name: Export Ansible Roles
       run: |
         export ANSIBLE_CONFIG=roles/
-        ansible-galaxy role list
+        #GitHub runners have issues locating roles. This workaround helps to resolve this issue
         mkdir /home/runner/work/homodigitalis_task/homodigitalis_task/playbooks/../static-assignments/roles
         cp -r roles/* /home/runner/work/homodigitalis_task/homodigitalis_task/playbooks/../static-assignments/roles
     
